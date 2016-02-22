@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		698027951C7AA7A800AF3397 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 698027941C7AA7A800AF3397 /* main.m */; };
+		698027981C7AA7A800AF3397 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 698027971C7AA7A800AF3397 /* AppDelegate.m */; };
+		6980279B1C7AA7A800AF3397 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6980279A1C7AA7A800AF3397 /* ViewController.m */; };
+		6980279E1C7AA7A800AF3397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6980279C1C7AA7A800AF3397 /* Main.storyboard */; };
+		698027A01C7AA7A800AF3397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6980279F1C7AA7A800AF3397 /* Assets.xcassets */; };
+		698027A31C7AA7A800AF3397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698027A11C7AA7A800AF3397 /* LaunchScreen.storyboard */; };
+		69C784D01C7AD5AE003E1B36 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C784CF1C7AD5AE003E1B36 /* AVFoundation.framework */; };
+		69C784D21C7AD5C6003E1B36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C784D11C7AD5C6003E1B36 /* UIKit.framework */; };
+		69C784DC1C7AF817003E1B36 /* Music.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69C784DB1C7AF817003E1B36 /* Music.plist */; };
+		69C784E41C7B2BB9003E1B36 /* LrcParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C784E31C7B2BB9003E1B36 /* LrcParser.m */; };
+		69C784ED1C7B2BFE003E1B36 /* wall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C784E61C7B2BFE003E1B36 /* wall.jpg */; };
+		69C784EE1C7B2BFE003E1B36 /* wall1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C784E71C7B2BFE003E1B36 /* wall1.jpg */; };
+		69C784EF1C7B2BFE003E1B36 /* wall2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C784E81C7B2BFE003E1B36 /* wall2.jpg */; };
+		69C784F01C7B2BFE003E1B36 /* 冰雨.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 69C784E91C7B2BFE003E1B36 /* 冰雨.lrc */; };
+		69C784F11C7B2BFE003E1B36 /* 冰雨.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69C784EA1C7B2BFE003E1B36 /* 冰雨.mp3 */; };
+		69C784F21C7B2BFE003E1B36 /* 董小姐.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 69C784EB1C7B2BFE003E1B36 /* 董小姐.lrc */; };
+		69C784F31C7B2BFE003E1B36 /* 董小姐.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69C784EC1C7B2BFE003E1B36 /* 董小姐.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		698027901C7AA7A800AF3397 /* MusicWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		698027941C7AA7A800AF3397 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		698027961C7AA7A800AF3397 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		698027971C7AA7A800AF3397 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		698027991C7AA7A800AF3397 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6980279A1C7AA7A800AF3397 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6980279D1C7AA7A800AF3397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6980279F1C7AA7A800AF3397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		698027A21C7AA7A800AF3397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		698027A41C7AA7A800AF3397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		698027AD1C7AA7A800AF3397 /* MusicWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicWeatherTests.m; sourceTree = "<group>"; };
+		698027AF1C7AA7A800AF3397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		698027B81C7AA7A800AF3397 /* MusicWeatherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicWeatherUITests.m; sourceTree = "<group>"; };
+		698027BA1C7AA7A800AF3397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69C784CF1C7AD5AE003E1B36 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		69C784D11C7AD5C6003E1B36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		69C784DB1C7AF817003E1B36 /* Music.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Music.plist; sourceTree = "<group>"; };
+		69C784E21C7B2BB9003E1B36 /* LrcParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LrcParser.h; sourceTree = "<group>"; };
+		69C784E31C7B2BB9003E1B36 /* LrcParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LrcParser.m; sourceTree = "<group>"; };
+		69C784E61C7B2BFE003E1B36 /* wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall.jpg; sourceTree = "<group>"; };
+		69C784E71C7B2BFE003E1B36 /* wall1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall1.jpg; sourceTree = "<group>"; };
+		69C784E81C7B2BFE003E1B36 /* wall2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall2.jpg; sourceTree = "<group>"; };
+		69C784E91C7B2BFE003E1B36 /* 冰雨.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "冰雨.lrc"; sourceTree = "<group>"; };
+		69C784EA1C7B2BFE003E1B36 /* 冰雨.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "冰雨.mp3"; sourceTree = "<group>"; };
+		69C784EB1C7B2BFE003E1B36 /* 董小姐.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "董小姐.lrc"; sourceTree = "<group>"; };
+		69C784EC1C7B2BFE003E1B36 /* 董小姐.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "董小姐.mp3"; sourceTree = "<group>"; };
+		9009B825BFFEC678D2DF6BAC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C08CEE27C144B077270529C4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FF30FEAECC429BF6522A336D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6980278D1C7AA7A800AF3397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C784D21C7AD5C6003E1B36 /* UIKit.framework in Frameworks */,
+				69C784D01C7AD5AE003E1B36 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06EFFF8053FD47C8D9978A09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69C784D11C7AD5C6003E1B36 /* UIKit.framework */,
+				69C784CF1C7AD5AE003E1B36 /* AVFoundation.framework */,
+				FF30FEAECC429BF6522A336D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		698027871C7AA7A800AF3397 = {
+			isa = PBXGroup;
+			children = (
+				698027921C7AA7A800AF3397 /* MusicWeather */,
+				698027AC1C7AA7A800AF3397 /* MusicWeatherTests */,
+				698027B71C7AA7A800AF3397 /* MusicWeatherUITests */,
+				698027911C7AA7A800AF3397 /* Products */,
+				8541CBCD2A7326F8963AE170 /* Pods */,
+				06EFFF8053FD47C8D9978A09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		698027911C7AA7A800AF3397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				698027901C7AA7A800AF3397 /* MusicWeather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		698027921C7AA7A800AF3397 /* MusicWeather */ = {
+			isa = PBXGroup;
+			children = (
+				69C784E51C7B2BFE003E1B36 /* Resource */,
+				69C784E11C7B2BB9003E1B36 /* LrcParser */,
+				698027961C7AA7A800AF3397 /* AppDelegate.h */,
+				698027971C7AA7A800AF3397 /* AppDelegate.m */,
+				698027991C7AA7A800AF3397 /* ViewController.h */,
+				6980279A1C7AA7A800AF3397 /* ViewController.m */,
+				6980279C1C7AA7A800AF3397 /* Main.storyboard */,
+				6980279F1C7AA7A800AF3397 /* Assets.xcassets */,
+				698027A11C7AA7A800AF3397 /* LaunchScreen.storyboard */,
+				698027A41C7AA7A800AF3397 /* Info.plist */,
+				698027931C7AA7A800AF3397 /* Supporting Files */,
+				69C784DB1C7AF817003E1B36 /* Music.plist */,
+			);
+			path = MusicWeather;
+			sourceTree = "<group>";
+		};
+		698027931C7AA7A800AF3397 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				698027941C7AA7A800AF3397 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		698027AC1C7AA7A800AF3397 /* MusicWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				698027AD1C7AA7A800AF3397 /* MusicWeatherTests.m */,
+				698027AF1C7AA7A800AF3397 /* Info.plist */,
+			);
+			path = MusicWeatherTests;
+			sourceTree = "<group>";
+		};
+		698027B71C7AA7A800AF3397 /* MusicWeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				698027B81C7AA7A800AF3397 /* MusicWeatherUITests.m */,
+				698027BA1C7AA7A800AF3397 /* Info.plist */,
+			);
+			path = MusicWeatherUITests;
+			sourceTree = "<group>";
+		};
+		69C784E11C7B2BB9003E1B36 /* LrcParser */ = {
+			isa = PBXGroup;
+			children = (
+				69C784E21C7B2BB9003E1B36 /* LrcParser.h */,
+				69C784E31C7B2BB9003E1B36 /* LrcParser.m */,
+			);
+			path = LrcParser;
+			sourceTree = "<group>";
+		};
+		69C784E51C7B2BFE003E1B36 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				69C784E61C7B2BFE003E1B36 /* wall.jpg */,
+				69C784E71C7B2BFE003E1B36 /* wall1.jpg */,
+				69C784E81C7B2BFE003E1B36 /* wall2.jpg */,
+				69C784E91C7B2BFE003E1B36 /* 冰雨.lrc */,
+				69C784EA1C7B2BFE003E1B36 /* 冰雨.mp3 */,
+				69C784EB1C7B2BFE003E1B36 /* 董小姐.lrc */,
+				69C784EC1C7B2BFE003E1B36 /* 董小姐.mp3 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8541CBCD2A7326F8963AE170 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C08CEE27C144B077270529C4 /* Pods.debug.xcconfig */,
+				9009B825BFFEC678D2DF6BAC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6980278F1C7AA7A800AF3397 /* MusicWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 698027BD1C7AA7A800AF3397 /* Build configuration list for PBXNativeTarget "MusicWeather" */;
+			buildPhases = (
+				6980278C1C7AA7A800AF3397 /* Sources */,
+				6980278D1C7AA7A800AF3397 /* Frameworks */,
+				6980278E1C7AA7A800AF3397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicWeather;
+			productName = MusicWeather;
+			productReference = 698027901C7AA7A800AF3397 /* MusicWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		698027881C7AA7A800AF3397 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Changwei Zhang";
+				TargetAttributes = {
+					6980278F1C7AA7A800AF3397 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 6980278B1C7AA7A800AF3397 /* Build configuration list for PBXProject "MusicWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 698027871C7AA7A800AF3397;
+			productRefGroup = 698027911C7AA7A800AF3397 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6980278F1C7AA7A800AF3397 /* MusicWeather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6980278E1C7AA7A800AF3397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C784DC1C7AF817003E1B36 /* Music.plist in Resources */,
+				69C784ED1C7B2BFE003E1B36 /* wall.jpg in Resources */,
+				69C784F21C7B2BFE003E1B36 /* 董小姐.lrc in Resources */,
+				698027A31C7AA7A800AF3397 /* LaunchScreen.storyboard in Resources */,
+				69C784F31C7B2BFE003E1B36 /* 董小姐.mp3 in Resources */,
+				698027A01C7AA7A800AF3397 /* Assets.xcassets in Resources */,
+				69C784EF1C7B2BFE003E1B36 /* wall2.jpg in Resources */,
+				69C784F01C7B2BFE003E1B36 /* 冰雨.lrc in Resources */,
+				69C784F11C7B2BFE003E1B36 /* 冰雨.mp3 in Resources */,
+				6980279E1C7AA7A800AF3397 /* Main.storyboard in Resources */,
+				69C784EE1C7B2BFE003E1B36 /* wall1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6980278C1C7AA7A800AF3397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C784E41C7B2BB9003E1B36 /* LrcParser.m in Sources */,
+				6980279B1C7AA7A800AF3397 /* ViewController.m in Sources */,
+				698027981C7AA7A800AF3397 /* AppDelegate.m in Sources */,
+				698027951C7AA7A800AF3397 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6980279C1C7AA7A800AF3397 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6980279D1C7AA7A800AF3397 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		698027A11C7AA7A800AF3397 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				698027A21C7AA7A800AF3397 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		698027BB1C7AA7A800AF3397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		698027BC1C7AA7A800AF3397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		698027BE1C7AA7A800AF3397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.9std.MusicWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		698027BF1C7AA7A800AF3397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.9std.MusicWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6980278B1C7AA7A800AF3397 /* Build configuration list for PBXProject "MusicWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				698027BB1C7AA7A800AF3397 /* Debug */,
+				698027BC1C7AA7A800AF3397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		698027BD1C7AA7A800AF3397 /* Build configuration list for PBXNativeTarget "MusicWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				698027BE1C7AA7A800AF3397 /* Debug */,
+				698027BF1C7AA7A800AF3397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 698027881C7AA7A800AF3397 /* Project object */;
+}
